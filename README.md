@@ -1,11 +1,5 @@
 # Project_1
 
-A working title for your app
-What API you want to use and what information you want to get from it.
-Write out what features you will need to build in order to meet MVP
-Stretch goals for additional / advanced features for when you complete your MVP
-Wireframes showing your app's layout on desktop, tablet, and mobile. These can be as lo-fi or as hi-fi as you want. You don't have to put these in the README, but please upload them to your repository.
-
 <h1>CRyPTO LyVE</h1>
 
 
@@ -24,6 +18,11 @@ Our clear, user-friendly dashboard helps you see prices and the value of assests
 
 
 
+
+
 CRyPTO LyVE, Inc
 Developer
+
+
+
 
