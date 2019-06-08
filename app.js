@@ -40,9 +40,9 @@ fetch(API)
 
 
 /*Page refresh*/
-// setTimeout(function() {
-//   location.reload();
-// }, 10000);
+setTimeout(function() {
+location.reload();
+}, 10000);
 
 
 
