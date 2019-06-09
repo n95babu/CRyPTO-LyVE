@@ -1,8 +1,106 @@
-body {
-    text-align: center;
-}
+html {
+    font-size: 16px;
+  }
 
+body {
+    color: lightseagreen;
+    /* background: #22394C url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14625/blue_@2X.jpg'); */
+    background-size: 33%;
+    font-family: inherit;
+  }
+
+
+  
+a {
+    text-decoration: none;
+    color: #000033;
+}
+  
 img {
-width: 15%;
+width: 5%;
   height: auto;
 }
+
+#logo {
+width: 100px;
+margin-right: 20px;
+}
+
+h1 {
+    text-align: center
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  
+  nav {
+    width: 50%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  #assets{
+   display: grid;
+   grid-template-columns: 50% 50% ;
+   background-color: #000033;
+   padding: 5%;
+   text-align: center;
+  }
+
+  #main_News {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  /* Header Jumbotron */
+  #jumbotron {
+    margin-top: 100px;
+  } 
+
+
+ 
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+  /* MEDIA QUERY FOR PHONE PORTRAIT */
+
+  @media only screen 
+    and (max-width: 480px){
+      
+      h1 {
+        font-size: 16px;
+        text-align: center;
+      }
+      header div {
+        margin-left: 1%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+      }
+       nav {
+      width: 75%;
+      margin-right: 1%;
+    }
+
+
+
+
+    }
