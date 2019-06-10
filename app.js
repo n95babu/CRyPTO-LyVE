@@ -1,7 +1,7 @@
 const button = document.querySelector('#butt');
 const ul = document.querySelector('#assets'); // List of data will be post
 const newsUl = document.querySelector('#news');
-const news = document.querySelector('#main_News');
+const news = document.querySelector('#tickr-box');
 const coinAPI = `https://api.coinranking.com/v1/public/coins`
 
 const newsAPI = `https://min-api.cryptocompare.com/data/v2/news/?lang=EN`
@@ -55,7 +55,6 @@ const GetNewsData = async () => {
 }
 
 GetNewsData()
-
 
 
 
