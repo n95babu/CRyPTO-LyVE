@@ -17,7 +17,7 @@ function append(parent, el) {
 return parent.appendChild(el);
 }
 
-// Coin API  Call
+// This fun will render Coins 
 const getCoinData = async () => {
   const response = await axios.get(`${coinAPI}`);
   let assets = response.data.data.coins; 
@@ -25,9 +25,6 @@ const getCoinData = async () => {
     let li = createNode('li');
     let span = createNode('span');
     let img = createNode('img')
-
-
-
   img.src = coin.iconUrl
   span.innerHTML = `${coin.price} ${coin.name} `; 
   append(li, span);
@@ -39,7 +36,7 @@ const getCoinData = async () => {
 getCoinData()
 
 
-//News API
+//This function will render news 
 
 const GetNewsData = async () => {
   const response = await axios.get(`${newsAPI}`)
