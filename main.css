@@ -7,6 +7,7 @@ body {
     background-size: 33%;
     font-family: inherit;
     margin: 0%;
+    background-color: lightblue;
    
   }
 
@@ -32,6 +33,10 @@ width: 100px;
 margin-right: 20px;
 }
 
+top {
+  align-items: stretch;
+} 
+
 h1 {
     text-align: center
 }
@@ -43,6 +48,7 @@ header {
     /* position: fixed; */
     top: 0;
     z-index: 2;
+    
   }
   
 nav {
@@ -79,9 +85,7 @@ nav a {
     background-color: lightgreen;
     display: flex;
     flex-direction: row;
-
   }
-
 
 
 
@@ -100,7 +104,7 @@ footer {
     and (max-width: 480px){
       
       h1 {
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
       }
       header div {
@@ -113,7 +117,18 @@ footer {
       width: 75%;
       margin-right: 1%;
     }
+    #assets{
+      display: grid;
+      grid-template-columns: 100% ;
+      /* background-color: #000033; */
+      padding: 5%;
+      text-align: center;
+      margin: 0 0 50px 0;
+      font-size: 18px;
 
+  
+     }
+     
 
 
 
