@@ -6,6 +6,7 @@ const coinAPI = `https://api.coinranking.com/v1/public/coins`
 const newsAPI = `https://min-api.cryptocompare.com/data/v2/news/?lang=EN`
 const newsAPIKey = `f09a8461c40803deaf10d1196fbe809d292c6f75e25189abc59b25f0a467fceb`
 
+const data = ``
 
 function createNode(element) {
   return document.createElement(element);
@@ -17,9 +18,11 @@ return parent.appendChild(el);
 
 // This fun will render Coins 
 const getCoinData = async () => {
-  const response = await axios.get(`${coinAPI}`);
-  let assets = response.data.data.coins; 
-  assets.map(function(coin){
+  // const response = await axios.get(`${coinAPI}`);
+  // let assets = response.data.data.coins; 
+  const assets =coindata.data.coins
+  console.log(assets)
+  assets.forEach(function(coin){
     let li = createNode('li');
     let span = createNode('span');
     let img = createNode('img')
@@ -39,7 +42,7 @@ getCoinData()
 const GetNewsData = async () => {
   const response = await axios.get(`${newsAPI}`)
   let news = response.data.Data
-  news.map(function(coinnews){
+  news.forEach(function(coinnews){
     let li =createNode('li')
     let span = createNode('span')
 
@@ -49,7 +52,7 @@ const GetNewsData = async () => {
   })
 
 
-  console.log(news)
+  // console.log(news)
 }
 
 GetNewsData()

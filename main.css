@@ -4,11 +4,13 @@ html {
 
 body {
     color: lightseagreen;
-    /* background: #22394C url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14625/blue_@2X.jpg'); */
     background-size: 33%;
     font-family: inherit;
+    margin: 0%;
    
   }
+
+  /* NavBar */
 
 header {
   background-color: #0C1B32;
@@ -43,20 +45,28 @@ header {
     z-index: 2;
   }
   
-  nav {
-    width: 50%;
+nav {
+    width: 100%;
     margin-right: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
   }
   
-  nav a {
+nav a {
     font-weight: bold;
     font-size: 14px;
   }
-  
-  #assets{
+
+    /* Header Jumbotron */
+#jumbotron {
+  margin-top: 100px;
+} 
+
+/* Coins */
+#assets{
    display: grid;
    grid-template-columns: 50% 50% ;
    /* background-color: #000033; */
@@ -64,17 +74,15 @@ header {
    text-align: center;
   }
 
-  #main_News {
+  /* News */
+#main_News {
     background-color: lightgreen;
     display: flex;
     flex-direction: row;
 
   }
 
-  /* Header Jumbotron */
-  #jumbotron {
-    margin-top: 100px;
-  } 
+
 
 
  
@@ -112,3 +120,24 @@ footer {
     }
 
 
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
