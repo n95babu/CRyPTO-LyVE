@@ -3,9 +3,7 @@ const ul = document.querySelector('#assets'); // List of data will be post
 const newsUl = document.querySelector('#news');
 const news = document.querySelector('#tickr-box');
 const coinAPI = `https://api.coinranking.com/v1/public/coins`
-
 const newsAPI = `https://min-api.cryptocompare.com/data/v2/news/?lang=EN`
-
 const newsAPIKey = `f09a8461c40803deaf10d1196fbe809d292c6f75e25189abc59b25f0a467fceb`
 
 
@@ -60,14 +58,10 @@ GetNewsData()
 
 
 
-/*Page refresh*/
-// setTimeout(function() {
-// location.reload();
-// }, 1000);
 
 
 
-
+//This function will refresh the coin Prices
 
 // setInterval(() => {
 // const assets = document.querySelector('#assets');
@@ -76,6 +70,13 @@ GetNewsData()
 // }, 10000)
 
 
+// This function will refresh the news Data
+
+// setInterval(() => {
+//   const news = document.querySelector('#news');
+//   news.innerHTML = '';
+//   GetNewsData
+// },10000)
 
 
 

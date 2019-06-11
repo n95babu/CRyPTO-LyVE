@@ -7,13 +7,17 @@ body {
     /* background: #22394C url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14625/blue_@2X.jpg'); */
     background-size: 33%;
     font-family: inherit;
+   
   }
 
-
+header {
+  background-color: #0C1B32;
+  
+}
   
 a {
     text-decoration: none;
-    color: #000033;
+    color: white;
 }
   
 img {
@@ -34,7 +38,7 @@ header {
     height: 100px;
     width: 100%;
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: 2;
   }
@@ -55,7 +59,7 @@ header {
   #assets{
    display: grid;
    grid-template-columns: 50% 50% ;
-   background-color: #000033;
+   /* background-color: #000033; */
    padding: 5%;
    text-align: center;
   }
@@ -79,6 +83,8 @@ header {
 
 footer {
   text-align: center;
+  padding: 2%;
+  background-color: #060C13;
 }
   /* MEDIA QUERY FOR PHONE PORTRAIT */
 
