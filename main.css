@@ -33,12 +33,13 @@ width: 100px;
 margin-right: 20px;
 }
 
-top {
+/* .topnav {
   align-items: stretch;
-} 
+}  */
 
 h1 {
-    text-align: center
+    text-align: center;
+    text-decoration: underline;
 }
 
 header {
@@ -66,17 +67,28 @@ nav a {
     font-size: 14px;
   }
 
+#landPgImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+
+
+
     /* Header Jumbotron */
 #jumbotron {
-  margin-top: 100px;
+  margin-top: 30px;
 } 
+
 
 /* Coins */
 #assets{
    display: grid;
    grid-template-columns: 50% 50% ;
    /* background-color: #000033; */
-   padding: 5%;
+   padding: 2%;
    text-align: center;
   }
 
@@ -85,11 +97,8 @@ nav a {
     background-color: lightgreen;
     display: flex;
     flex-direction: row;
+    padding: 2%;
   }
-
-
-
- 
 
 /* Footer */
 
