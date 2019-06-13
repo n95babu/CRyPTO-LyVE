@@ -3,7 +3,7 @@ const newsUl = document.querySelector('#news');
 const news = document.querySelector('#tickr-box');
 const coinAPI = `https://api.coinranking.com/v1/public/coins`
 const newsAPI = `https://min-api.cryptocompare.com/data/v2/news/?lang=EN`
-const newsAPIKey = `f09a8461c40803deaf10d1196fbe809d292c6f75e25189abc59b25f0a467fceb`
+const newsAPIKey = `48417d9336209e6315cc35ae425412838179b47dddf046aa8cad4cb0f9d98567`
 
 
 
