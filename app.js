@@ -19,8 +19,8 @@ return parent.appendChild(el);
 const getCoinData = async () => {
   const response = await axios.get(`${coinAPI}`);
   let assets = response.data.data.coins; 
+  ul.innerHTML = '';
   // const assets =coindata.data.coins //rendering local data
-  // console.log(assets)
   assets.forEach(function(coin){
     let li = createNode('li');
     let span = createNode('span');
@@ -65,11 +65,10 @@ GetNewsData()
 
 //This function will refresh the coin Prices
 
-// setInterval(() => {
-// const assets = document.querySelector('.assets');
-// assets.innerHTML = '';
-// getCoinData();
-// }, 10000)
+setInterval(() => {
+const assets = document.querySelector('.assets');
+getCoinData();
+}, 10000)
 
 
 // This function will refresh the news Data

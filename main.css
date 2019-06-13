@@ -168,6 +168,12 @@ footer {
     display: block;
     margin-right: 20px;
   }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
   /* Coin data */
   
 
