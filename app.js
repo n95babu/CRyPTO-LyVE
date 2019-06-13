@@ -63,7 +63,6 @@ GetNewsData()
 
 
 
-
 //This function will refresh the coin Prices
 
 // setInterval(() => {

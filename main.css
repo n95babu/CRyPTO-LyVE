@@ -37,6 +37,12 @@ h1 {
     text-decoration: underline;
 }
 
+
+button {
+  text-align: center;
+}
+
+
 header {
     height: 100px;
     width: 100%;
@@ -95,6 +101,7 @@ footer {
   background-color: #060C13;
   color: white;
 }
+
 
 /* Spin */
 #spin{
@@ -167,6 +174,17 @@ footer {
     display: block;
     margin-right: 20px;
   }
+  /* Coin data */
+  
+
+  .assets{
+    display: inline-block;
+    column-count: 2;
+    list-style: none; 
+    display: inline-block;
+    }
+  
+
 }
 
 @media screen and (max-width: 600px) {
