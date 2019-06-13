@@ -26,7 +26,7 @@ const getCoinData = async () => {
     let span = createNode('span');
     let img = createNode('img')
   img.src = coin.iconUrl
-  span.innerHTML =  `${coin.name} $ ${parseFloat(coin.price).toFixed(2)} `; 
+  span.innerHTML =  ` ${coin.name} $${parseFloat(coin.price).toFixed(2)} `; 
 
   append(li, img);
   append(li, span);
