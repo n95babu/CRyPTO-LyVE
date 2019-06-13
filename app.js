@@ -1,4 +1,3 @@
-const button = document.querySelector('#butt');
 const ul = document.querySelector('.assets'); // List of data will be post
 const newsUl = document.querySelector('#news');
 const news = document.querySelector('#tickr-box');
@@ -67,11 +66,11 @@ GetNewsData()
 
 //This function will refresh the coin Prices
 
-setInterval(() => {
-const assets = document.querySelector('.assets');
-assets.innerHTML = '';
-getCoinData();
-}, 10000)
+// setInterval(() => {
+// const assets = document.querySelector('.assets');
+// assets.innerHTML = '';
+// getCoinData();
+// }, 10000)
 
 
 // This function will refresh the news Data
