@@ -7,24 +7,25 @@ body {
     background-size: 33%;
     font-family: inherit;
     margin: 0%;
-    background-color:#0C1B32;
+    background-color:#060C13;
    
   }
 
   /* NavBar */
-header {
-  background-color: #0C1B32;
-  
-}
-  
 a {
     text-decoration: none;
     color: white;
+    font-style: inherit;
 }
   
 img {
 width: 5%;
   height: auto;
+
+}
+
+img:hover {
+  opacity:0.8;
 }
 
 #logo {
@@ -32,9 +33,10 @@ width: 100px;
 margin-right: 20px;
 }
 
-h1 {
+h1 , h2 {
     text-align: center;
-    text-decoration: underline;
+    color: white;
+     font-style: inherit;
 }
 
 header {
@@ -43,7 +45,7 @@ header {
     display: flex;
     top: 0;
     z-index: 2;
-    background-color: #070F15;
+    background-color: #060C13;
   
   }
   
