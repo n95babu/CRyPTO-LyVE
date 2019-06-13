@@ -68,7 +68,7 @@ GetNewsData()
 setInterval(() => {
 const assets = document.querySelector('.assets');
 getCoinData();
-}, 10000)
+}, 30000)
 
 
 // This function will refresh the news Data
