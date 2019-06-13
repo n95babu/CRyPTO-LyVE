@@ -37,12 +37,6 @@ h1 {
     text-decoration: underline;
 }
 
-
-button {
-  text-align: center;
-}
-
-
 header {
     height: 100px;
     width: 100%;
@@ -178,11 +172,13 @@ footer {
   
 
   .assets{
-    display: inline-block;
-    column-count: 2;
-    list-style: none; 
-    display: inline-block;
-    }
+    display: grid;
+    grid-template-columns: 100% ;
+    padding: 5%;
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-size: 18px;
+   }
   
 
 }
