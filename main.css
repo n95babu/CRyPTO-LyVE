@@ -16,6 +16,8 @@ a {
     text-decoration: none;
     color: white;
     font-style: inherit;
+    
+    
 }
   
 img {
@@ -46,6 +48,7 @@ header {
     top: 0;
     z-index: 2;
     background-color: #060C13;
+
   
   }
   
@@ -80,6 +83,7 @@ nav a {
   column-count: 3;
   list-style: none; 
   display: inline-block;
+  font-size: 20px;
   }
 
   /* News */
@@ -144,7 +148,7 @@ footer {
       padding: 5%;
       text-align: center;
       margin: 0 0 50px 0;
-      font-size: 18px;
+      font-size: 30px;
      }
 
 
@@ -176,7 +180,7 @@ footer {
     margin-left: 20%;
   }
 
-  h1 {
+  h2 {
     font-size: 20px;
     text-align: center;
   }
