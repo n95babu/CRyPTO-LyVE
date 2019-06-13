@@ -1,5 +1,5 @@
 const button = document.querySelector('#butt');
-const ul = document.querySelector('#assets'); // List of data will be post
+const ul = document.querySelector('.assets'); // List of data will be post
 const newsUl = document.querySelector('#news');
 const news = document.querySelector('#tickr-box');
 const coinAPI = `https://api.coinranking.com/v1/public/coins`
@@ -27,10 +27,11 @@ const getCoinData = async () => {
     let span = createNode('span');
     let img = createNode('img')
   img.src = coin.iconUrl
-  span.innerHTML = `${coin.price} ${coin.name} `; 
+  span.innerHTML =  `${coin.name} $ ${parseFloat(coin.price).toFixed(2)} `; 
+
+  append(li, img);
   append(li, span);
   append(ul, li);
-  append(li, img);
   })
 
 }
@@ -66,11 +67,11 @@ GetNewsData()
 
 //This function will refresh the coin Prices
 
-// setInterval(() => {
-// const assets = document.querySelector('#assets');
-// assets.innerHTML = '';
-// getCoinData();
-// }, 1)
+setInterval(() => {
+const assets = document.querySelector('.assets');
+assets.innerHTML = '';
+getCoinData();
+}, 10000)
 
 
 // This function will refresh the news Data

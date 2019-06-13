@@ -83,13 +83,15 @@ nav a {
 
 
 /* Coins */
-#assets{
-   display: grid;
-   grid-template-columns: 50% 50% ;
-   /* background-color: #000033; */
-   padding: 2%;
-   text-align: center;
+.assets{
+  display: inline-block;
+  column-count: 3;
+  list-style: none; 
+  display: inline-block;
   }
+
+  
+
 
   /* News */
 #main_News {
@@ -110,22 +112,25 @@ footer {
 
   @media only screen 
     and (max-width: 480px){
-      
+      nav {
+        width: 75%;
+        margin: 1%;
+      }
+
       h1 {
         font-size: 20px;
         text-align: center;
       }
+
       header div {
         margin-left: 1%;
         width: 20%;
         display: flex;
         align-items: center;
       }
-       nav {
-      width: 75%;
-      margin-right: 1%;
-    }
-    #assets{
+
+    /* coin data */
+    .assets{
       display: grid;
       grid-template-columns: 100% ;
       padding: 5%;
@@ -135,26 +140,29 @@ footer {
      }
 
 
-    
+    /* JumboTron */
     #landPgImg {
     width: 100%;
     height: 150px;
     object-fit: cover;
     
     }
-    
-     
 
-
+    /* Logo Section  */
+    #logo {
+      margin-right: 20px;
+    }
 
     }
 
+    /* Nav links  */
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+    margin-right: 20px;
   }
 }
 
