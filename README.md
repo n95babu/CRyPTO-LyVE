@@ -25,6 +25,8 @@ Never miss a buying or selling opportunity. Easily travk and follow the prices o
 NEWS
 CRyPTOLyVE brings all the crypto related news from over 40 sources to a single screen so you can easily stay on top of the market. 
 
+Stacks
+HTML, CSS, and Javascript
 
 
 										Road Map

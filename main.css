@@ -12,7 +12,6 @@ body {
   }
 
   /* NavBar */
-
 header {
   background-color: #0C1B32;
   
@@ -33,10 +32,6 @@ width: 100px;
 margin-right: 20px;
 }
 
-/* .topnav {
-  align-items: stretch;
-}  */
-
 h1 {
     text-align: center;
     text-decoration: underline;
@@ -46,7 +41,6 @@ header {
     height: 100px;
     width: 100%;
     display: flex;
-    /* position: fixed; */
     top: 0;
     z-index: 2;
     background-color: #070F15;
@@ -59,9 +53,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    
-    
   }
   
 nav a {
@@ -73,10 +64,9 @@ nav a {
   width: 100%;
   height: 300px;
   object-fit: cover;
-
 }
 
-    /* Header Jumbotron */
+/* Header Jumbotron */
 #jumbotron {
   margin-top: 30px;
 } 
@@ -90,9 +80,6 @@ nav a {
   display: inline-block;
   }
 
-  
-
-
   /* News */
 #main_News {
     background-color: lightgreen;
@@ -102,11 +89,11 @@ nav a {
   }
 
 /* Footer */
-
 footer {
   text-align: center;
   padding: 2%;
   background-color: #060C13;
+  color: white;
 }
   /* MEDIA QUERY FOR PHONE PORTRAIT */
 
@@ -154,9 +141,7 @@ footer {
     }
 
     }
-
-    /* Nav links  */
-
+/* Nav links  */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
